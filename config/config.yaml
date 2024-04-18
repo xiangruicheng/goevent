@@ -1,0 +1,15 @@
+app:
+  name: goevent
+  port: 9217
+
+redis:
+  host: 127.0.0.1
+  port: 6379
+  username: ~
+  password: ~
+  db: 1
+
+event:
+  data_dir: data/
+  encode: off
+  data_file_max_lines: 500
