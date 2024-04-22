@@ -123,7 +123,7 @@ func GetAllEvent() ([]*EventObj, error) {
 }
 
 // Consumer consumer
-func Consumer(topic string) {
+func Consumer() {
 	wg := new(sync.WaitGroup)
 	tags := []string{}
 	for {

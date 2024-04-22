@@ -32,6 +32,6 @@ func main() {
 	//err := subscribe.CreateSubscribe(subscribeObj)
 	//fmt.Println(err)
 
-	event.Consumer(obj.Topic)
+	event.Consumer()
 
 }
